@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { useAppDispatch, useAppSelector } from "./hooks";
 import { countryActions } from "./store/slices/countrySlice";
 import { eventChannel, END } from "redux-saga";
@@ -101,7 +101,7 @@ const App = () => {
   return (
     <div id="App">
       <SideBar items={Object.keys(countriesDictionary).sort()} />
-      <BrowserRouter>
+      <HashRouter basename="/">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route
@@ -110,7 +110,7 @@ const App = () => {
           />
           <Route path={`:letter/:country`} element={<CountryDetails />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 };
