@@ -6,7 +6,11 @@ const Sidebar: React.FC<{ items: string[] }> = ({ items }) => {
   return (
     <Menu>
       {items.map((item: string, index: number) => (
-        <a key={index.toString()} className="menu-item" href={`/${item}`}>
+        <a
+          key={index.toString()}
+          className="menu-item"
+          href={`${import.meta.env.BASE_URL}${item}`}
+        >
           {item}
         </a>
       ))}
