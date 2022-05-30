@@ -6,7 +6,4 @@ export default defineConfig({
   // when needing to go into dev mode, comment base
   //base: "/country-finder/",
   plugins: [react()],
-  define: {
-    "process.env": process.env,
-  },
 });
