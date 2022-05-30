@@ -100,8 +100,8 @@ const App = () => {
 
   return (
     <div id="App">
-      <SideBar items={Object.keys(countriesDictionary).sort()} />
       <BrowserRouter basename={import.meta.env.BASE_URL}>
+        <SideBar items={Object.keys(countriesDictionary).sort()} />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route
