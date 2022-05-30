@@ -18,6 +18,7 @@ const CountryDetails: React.FC = () => {
         name: details.name.common,
         capital: details.capital,
         population: details.population,
+        alpha2Code: details.cca2,
         flag: details.flags.png,
       }));
       setCountry(countryDetails[0]);
@@ -46,7 +47,8 @@ const CountryDetails: React.FC = () => {
           <td>{Country?.population.toString()}</td>
         </tr>
         <tr>
-          <td>alpha2Code</td>
+          <td>Alpha-2 code</td>
+          <td>{Country?.alpha2Code}</td>
           <td></td>
         </tr>
         <tr>

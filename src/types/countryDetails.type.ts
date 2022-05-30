@@ -2,6 +2,6 @@ export default interface ICountryDetails {
   name: string;
   capital: string[];
   population: bigint;
-  alpha2Code?: any;
+  alpha2Code: string;
   flag: string;
 }

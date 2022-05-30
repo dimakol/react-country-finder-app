@@ -2,6 +2,7 @@ export default interface ICountryData {
   name: ICountryNameData;
   capital: string[];
   population: bigint;
+  cca2: string;
   flags: ICountryFlags;
 }
 
