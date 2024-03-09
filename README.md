@@ -1,4 +1,6 @@
-## Country finder - React Assignment
+# Country Finder App
+
+## Requirements
 
 [www.restcountries.com](https://restcountries.com) Get information about countries via a RESTful API.
 
@@ -53,3 +55,37 @@ Instructions: (demo - ws application).
 
 ● Use github / gitlab / other
 ```
+
+## Screenshots
+
+![animated gif](screenshots/animation.gif?raw=true "Animation")
+
+## Tech/framework used
+
+- [ReactJS](https://reactjs.org/)
+- [Redux](https://redux.js.org/)
+- [Redux-Saga](https://redux-saga.js.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+## Installation
+
+**Running Locally**
+
+git, npm and node softwares should be installed before moving on
+
+```bash
+git clone https://github.com/dimakol/react-country-finder-app.git
+cd react-country-finder-app
+npm install
+npm run dev
+```
+
+**Building for production**
+
+```bash
+npm run build
+```
+
+## Deployed to Github pages
+
+https://dimakol.github.io/react-country-finder-app/
