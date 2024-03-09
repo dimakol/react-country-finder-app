@@ -1,8 +1,8 @@
 {
-  "name": "country-finder",
+  "name": "react-country-finder-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://dimakol.github.io/country-finder/",
+  "homepage": "https://dimakol.github.io/react-country-finder-app/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
