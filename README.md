@@ -89,3 +89,9 @@ npm run build
 ## Deployed to Github pages
 
 https://dimakol.github.io/react-country-finder-app/
+
+## License
+
+(The MIT License)
+
+Copyright © 2024 Dima Kolyas
